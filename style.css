@@ -1,0 +1,19 @@
+body{
+    font-family: Arial;
+    text-align: center;
+}
+
+.slider{
+    width: 100%;
+    max-width: 1000px;
+    margin: 20px auto;
+}
+
+.slide{
+    display: none;
+
+    max-height: 720px;   /* ограничение высоты */
+    width: auto;         /* сохраняет пропорции */
+
+    margin: auto;
+}
